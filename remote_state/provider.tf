@@ -10,7 +10,7 @@
 
   backend "s3" {
     bucket         = "terraform-s3b-roboshop"
-    key            = "remote-state-terraform-roboshop"
+    key            = "remote-state-terraform-roboshop" # state file name
     region         = "us-east-1"
     encrypt        = true
     use_lockfile   = true
